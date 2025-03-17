@@ -1,0 +1,251 @@
+2025-01-30 09:54:06.978 DEBUG int main(int, const char **): 56 - ModelName in argv[2]: U3419W
+2025-01-30 09:54:06.979 DEBUG int main(int, const char **): 85 - nf_argc = 3
+2025-01-30 09:54:06.980 DEBUG int main(int, const char **): 88 - argv[0]=/Applications/Dell/firmware/U3419W/firmwareupdater.app/Contents/MacOS/firmwareupdater
+2025-01-30 09:54:06.980 DEBUG int main(int, const char **): 88 - argv[1]=/Applications/Dell/firmware/U3419W/U3419W_M3B114_20220715(UPG).UPG
+2025-01-30 09:54:06.980 DEBUG int main(int, const char **): 88 - argv[2]=U3419W
+2025-01-30 09:54:06.980 DEBUG int main(int, const char **):261 - ********* Normal ISP *********
+2025-01-30 09:54:06.982 DEBUG int main(int, const char **):267 - INSTALL_PATH in argv[0]: /Applications/Dell/firmware/U3419W/firmwareupdater.app/Contents/MacOS/firmwareupdater
+2025-01-30 09:54:06.984 DEBUG int main(int, const char **):272 - UPG_PATH in argv[1]: /Applications/Dell/firmware/U3419W/U3419W_M3B114_20220715(UPG).UPG
+2025-01-30 09:54:06.984 DEBUG int main(int, const char **):310 - appDir= /Applications/Dell/firmware/U3419W/
+2025-01-30 09:54:06.986 DEBUG int main(int, const char **):314 - HELP_PATH : /Applications/Dell/firmware/U3419W/Help/
+2025-01-30 09:54:07.458 DEBUG -[AppDelegate applicationDidFinishLaunching:]:290 - ISP Tool version V2.0.0.67
+2025-01-30 09:54:07.458 DEBUG -[AppDelegate applicationDidFinishLaunching:]:293 - arg num = 3
+2025-01-30 09:54:07.459 DEBUG -[AppDelegate applicationDidFinishLaunching:]:296 - isAutoTest = 0
+2025-01-30 09:54:07.517 DEBUG -[AppDelegate supported_hid_attached:::]:4692 - nf_dev = 1
+2025-01-30 09:54:07.517 DEBUG -[AppDelegate supported_hid_attached:::]:4693 - -[AppDelegate supported_hid_attached:::] chipName = TUSB8044
+2025-01-30 09:54:08.539 DEBUG -[AppDelegate getUsbToI2CInterface:]:838 - invalid Usb Hub type (null)
+2025-01-30 09:54:08.539 DEBUG -[AppDelegate getUsbToI2CInterface:]:867 - fromWhichHub: (null) -> 0xFF
+2025-01-30 09:54:08.540 DEBUG -[AppDelegate GetUPGInfo]:336 - Parsing UPG file.
+2025-01-30 09:54:08.540 DEBUG -[AppDelegate GetUPGInfo]:339 - Default UPG path is /Applications/Dell/firmware/U3419W/U3419W_M3B114_20220715(UPG).UPG
+2025-01-30 09:54:08.551 DEBUG -[UpdatePackageInfo isFakeUpg:]: 65 - Error reading file: The file ‚ÄúU3419W_M3B114_20220715(UPG).UPG‚Äù couldn‚Äôt be opened using text encoding Unicode (UTF-8).
+2025-01-30 09:54:08.551 DEBUG -[UpdatePackageInfo isFakeUpg:]: 76 - is fake UPG ? -> FALSE
+2025-01-30 09:54:08.552 DEBUG -[UpdatePackageInfo parse:]: 97 - -------------- UPG Parse Brief info --------------------
+2025-01-30 09:54:08.554 DEBUG -[UpdatePackageInfo parse:]:110 - UPG - version: M3B114
+2025-01-30 09:54:08.555 DEBUG -[UpdatePackageInfo parse:]:116 - UPG - model name: U3419W
+2025-01-30 09:54:08.555 DEBUG -[UpdatePackageInfo parse:]:125 - UPG - upg version: 00
+2025-01-30 09:54:08.555 DEBUG -[UpdatePackageInfo parse:]:131 - UPG - block num: 03
+2025-01-30 09:54:08.555 DEBUG -[UpdatePackageInfo parse:]:146 - UPG info - checksum: 0x12C8
+2025-01-30 09:54:08.556 DEBUG -[UpdatePackageInfo parse:]:158 - UPG - calculated checksum: 0x12C8
+2025-01-30 09:54:08.556 DEBUG -[UpdatePackageInfo parse:]:170 - -------------- UPG Parse detail block info start --------------------
+2025-01-30 09:54:08.556 DEBUG -[UpdatePackageInfo parse:]:197 - bin 1 - type : 0xD0
+2025-01-30 09:54:08.557 DEBUG -[UpdatePackageInfo parse:]:199 - bin 1 - vendor : 0x00
+2025-01-30 09:54:08.557 DEBUG -[UpdatePackageInfo parse:]:205 - bin 1 - Chip : TI TPS65982
+2025-01-30 09:54:08.557 DEBUG -[UpdatePackageInfo parse:]:211 - bin 1 - update from : 0
+2025-01-30 09:54:08.557 DEBUG -[UpdatePackageInfo parse:]:216 - bin 1 - F/W start address : 0x110
+2025-01-30 09:54:08.557 DEBUG -[UpdatePackageInfo parse:]:221 - bin 1 - F/W length : 12288
+2025-01-30 09:54:08.558 DEBUG -[UpdatePackageInfo parse:]:230 - bin 1 - F/W info start address : 12288
+2025-01-30 09:54:08.558 DEBUG -[UpdatePackageInfo parse:]:357 - bin 1 - version : 5CD105
+2025-01-30 09:54:08.558 DEBUG -[UpdatePackageInfo parse:]:469 - bin 1 - F/W flashing address : 0x2000
+2025-01-30 09:54:08.558 DEBUG -[UpdatePackageInfo parse:]:475 - bin 1 - F/W write complete address : 0xFFFFFFFF
+2025-01-30 09:54:08.559 DEBUG -[UpdatePackageInfo parse:]:481 - bin 1 - F/W checksum : 0xF956
+2025-01-30 09:54:08.559 DEBUG -[UpdatePackageInfo parse:]:492 - bin 1 - F/W SecureType : 0xFF
+2025-01-30 09:54:08.560 DEBUG -[UpdatePackageInfo parse:]:498 - bin 1 - F/W FromWhichHub : 0xFF
+2025-01-30 09:54:08.560 DEBUG -[UpdatePackageInfo parse:]:504 - bin 1 - F/W I2C hubSpeed : 0xFF
+2025-01-30 09:54:08.560 DEBUG -[UpdatePackageInfo parse:]:514 - bin 1 - block checksum : 0x2483
+2025-01-30 09:54:08.561 DEBUG -[UpdatePackageInfo parse:]:522 - bin 1 - calculated checksum: 0x2483
+2025-01-30 09:54:08.561 DEBUG -[UpdatePackageInfo parse:]:538 - ----------------------------------------------
+2025-01-30 09:54:08.561 DEBUG -[UpdatePackageInfo parse:]:197 - bin 2 - type : 0xE0
+2025-01-30 09:54:08.561 DEBUG -[UpdatePackageInfo parse:]:199 - bin 2 - vendor : 0x03
+2025-01-30 09:54:08.562 DEBUG -[UpdatePackageInfo parse:]:205 - bin 2 - Chip : RTD2797P-VDL-CG
+2025-01-30 09:54:08.562 DEBUG -[UpdatePackageInfo parse:]:211 - bin 2 - update from : 0
+2025-01-30 09:54:08.562 DEBUG -[UpdatePackageInfo parse:]:216 - bin 2 - F/W start address : 0x3113
+2025-01-30 09:54:08.562 DEBUG -[UpdatePackageInfo parse:]:221 - bin 2 - F/W length : 851968
+2025-01-30 09:54:08.562 DEBUG -[UpdatePackageInfo parse:]:230 - bin 2 - F/W info start address : 851968
+2025-01-30 09:54:08.563 DEBUG -[UpdatePackageInfo parse:]:277 - bin 2 - model : U3419W
+2025-01-30 09:54:08.563 DEBUG -[UpdatePackageInfo parse:]:282 - bin 2 - version : M3B114
+2025-01-30 09:54:08.563 DEBUG -[UpdatePackageInfo parse:]:295 - bin 2 - panel source : 00000020 ,length=1
+2025-01-30 09:54:08.563 DEBUG -[UpdatePackageInfo parse:]:317 - bin 2 - PD controller : 01
+2025-01-30 09:54:08.564 DEBUG -[UpdatePackageInfo parse:]:343 - bin 2 - IDCode : 01 (No IDCode,set to 0x01)
+2025-01-30 09:54:08.564 DEBUG -[UpdatePackageInfo parse:]:469 - bin 2 - F/W flashing address : 0x100000
+2025-01-30 09:54:08.564 DEBUG -[UpdatePackageInfo parse:]:475 - bin 2 - F/W write complete address : 0x1FF8FE
+2025-01-30 09:54:08.564 DEBUG -[UpdatePackageInfo parse:]:481 - bin 2 - F/W checksum : 0xC1E9
+2025-01-30 09:54:08.564 DEBUG -[UpdatePackageInfo parse:]:492 - bin 2 - F/W SecureType : 0xFF
+2025-01-30 09:54:08.565 DEBUG -[UpdatePackageInfo parse:]:498 - bin 2 - F/W FromWhichHub : 0xFF
+2025-01-30 09:54:08.565 DEBUG -[UpdatePackageInfo parse:]:504 - bin 2 - F/W I2C hubSpeed : 0xFF
+2025-01-30 09:54:08.565 DEBUG -[UpdatePackageInfo parse:]:514 - bin 2 - block checksum : 0x204D
+2025-01-30 09:54:08.565 DEBUG -[UpdatePackageInfo parse:]:522 - bin 2 - calculated checksum: 0x204D
+2025-01-30 09:54:08.565 DEBUG -[UpdatePackageInfo parse:]:538 - ----------------------------------------------
+2025-01-30 09:54:08.565 DEBUG -[UpdatePackageInfo parse:]:197 - bin 3 - type : 0xE0
+2025-01-30 09:54:08.566 DEBUG -[UpdatePackageInfo parse:]:199 - bin 3 - vendor : 0x03
+2025-01-30 09:54:08.566 DEBUG -[UpdatePackageInfo parse:]:205 - bin 3 - Chip : RTD2797P-VDL-CG
+2025-01-30 09:54:08.566 DEBUG -[UpdatePackageInfo parse:]:211 - bin 3 - update from : 0
+2025-01-30 09:54:08.566 DEBUG -[UpdatePackageInfo parse:]:216 - bin 3 - F/W start address : 0xD3121
+2025-01-30 09:54:08.566 DEBUG -[UpdatePackageInfo parse:]:221 - bin 3 - F/W length : 851968
+2025-01-30 09:54:08.567 DEBUG -[UpdatePackageInfo parse:]:230 - bin 3 - F/W info start address : 851968
+2025-01-30 09:54:08.567 DEBUG -[UpdatePackageInfo parse:]:277 - bin 3 - model : U3419W
+2025-01-30 09:54:08.567 DEBUG -[UpdatePackageInfo parse:]:282 - bin 3 - version : M3B114
+2025-01-30 09:54:08.567 DEBUG -[UpdatePackageInfo parse:]:295 - bin 3 - panel source : 00000021 ,length=1
+2025-01-30 09:54:08.567 DEBUG -[UpdatePackageInfo parse:]:317 - bin 3 - PD controller : 01
+2025-01-30 09:54:08.568 DEBUG -[UpdatePackageInfo parse:]:343 - bin 3 - IDCode : 01 (No IDCode,set to 0x01)
+2025-01-30 09:54:08.568 DEBUG -[UpdatePackageInfo parse:]:469 - bin 3 - F/W flashing address : 0x100000
+2025-01-30 09:54:08.568 DEBUG -[UpdatePackageInfo parse:]:475 - bin 3 - F/W write complete address : 0x1FF8FE
+2025-01-30 09:54:08.569 DEBUG -[UpdatePackageInfo parse:]:481 - bin 3 - F/W checksum : 0xC1EC
+2025-01-30 09:54:08.569 DEBUG -[UpdatePackageInfo parse:]:492 - bin 3 - F/W SecureType : 0xFF
+2025-01-30 09:54:08.569 DEBUG -[UpdatePackageInfo parse:]:498 - bin 3 - F/W FromWhichHub : 0xFF
+2025-01-30 09:54:08.569 DEBUG -[UpdatePackageInfo parse:]:504 - bin 3 - F/W I2C hubSpeed : 0xFF
+2025-01-30 09:54:08.569 DEBUG -[UpdatePackageInfo parse:]:514 - bin 3 - block checksum : 0x206B
+2025-01-30 09:54:08.570 DEBUG -[UpdatePackageInfo parse:]:522 - bin 3 - calculated checksum: 0x206B
+2025-01-30 09:54:08.570 DEBUG -[UpdatePackageInfo parse:]:538 - ----------------------------------------------
+2025-01-30 09:54:08.570 DEBUG -[UpdatePackageInfo parse:]:550 - -------------- UPG Parse detail block info End --------------------
+2025-01-30 09:54:08.812 DEBUG -[UpdatePackageInfo parse:]:560 - calculated UPG checksum: FEC6
+2025-01-30 09:54:08.812 DEBUG -[UpdatePackageInfo parse:]:561 - -------------- UPG Parse End --------------------
+2025-01-30 09:54:08.826 DEBUG -[AppDelegate DetectProcess:retry:closeAPP::]:223 - Process firmwareupdater found
+2025-01-30 09:54:11.122 DEBUG -[TUSB8044HIDApi init:]: 36 - Compatible Devices: 1
+2025-01-30 09:54:11.698 DEBUG -[TUSB8044HIDApi init:]: 46 - isConnected = 1
+2025-01-30 09:54:11.735 DEBUG -[TUSB8044HIDApi ChangeI2CSpeed:]: 75 - Origianl Reg3 value = 0x00
+2025-01-30 09:54:11.735 DEBUG -[TUSB8044HIDApi ChangeI2CSpeed:]: 80 - valToWrite value = 0x04
+2025-01-30 09:54:11.991 DEBUG -[TUSB8044HIDApi ChangeI2CSpeed:]: 87 - Current Reg3 value = 0x04
+2025-01-30 09:54:11.991 DEBUG -[TUSB8044HIDApi ChangeI2CSpeed:]: 91 - ChangeI2CSpeed successful
+2025-01-30 09:54:11.992 DEBUG -[AppDelegate getUsbToI2CInterface:]:867 - fromWhichHub: TUSB8044 -> 0x03
+2025-01-30 09:54:12.550 DEBUG +[MonitorInfo getManufacturerID:]: 55 - getManufacturerID: 0x62
+2025-01-30 09:54:12.550 DEBUG -[AppDelegate initialize:]:507 - appDir= /Applications/Dell/firmware/U3419W/
+2025-01-30 09:54:12.551 DEBUG -[AppDelegate initialize:]:511 - HELP_PATH : /Applications/Dell/firmware/U3419W/Help/
+2025-01-30 09:54:12.551 DEBUG -[AppDelegate initialize:]:515 - Launch Qisda Mac ISP tool
+2025-01-30 09:54:12.552 DEBUG -[AppDelegate getMonitorInfo]:1056 - getMonitorInfo
+2025-01-30 09:54:12.552 DEBUG +[MonitorInfo turnOffBurnInAndLeaveFactory:]:395 - +[MonitorInfo turnOffBurnInAndLeaveFactory:]
+2025-01-30 09:54:12.570 DEBUG +[MonitorInfo turnOffBurnInAndLeaveFactory:]:400 - writei2c return value: 2
+2025-01-30 09:54:13.094 DEBUG +[MonitorInfo turnOffBurnInAndLeaveFactory:]:404 - writei2c return value: 2
+2025-01-30 09:54:18.099 DEBUG +[MonitorInfo getCurrentVersion:]:651 - +[MonitorInfo getCurrentVersion:]
+2025-01-30 09:54:18.117 DEBUG +[MonitorInfo getCurrentVersion:]:667 - writei2c return value: 0
+2025-01-30 09:54:18.621 DEBUG +[MonitorInfo getCurrentVersion:]:677 - C8 Read: 
+
+2025-01-30 09:54:18.641 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 6E 
+2025-01-30 09:54:18.643 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 88 
+2025-01-30 09:54:18.644 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 02 
+2025-01-30 09:54:18.644 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 00 
+2025-01-30 09:54:18.644 DEBUG +[MonitorInfo getCurrentVersion:]:680 - C8 
+2025-01-30 09:54:18.645 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 00 
+2025-01-30 09:54:18.645 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 00 
+2025-01-30 09:54:18.645 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 11 
+2025-01-30 09:54:18.645 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 11 
+2025-01-30 09:54:18.646 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 09 
+2025-01-30 09:54:18.646 DEBUG +[MonitorInfo getCurrentVersion:]:680 - 75 
+2025-01-30 09:54:19.687 DEBUG +[MonitorInfo getCurrentVersion:]:788 - currentVer = 03B000
+2025-01-30 09:54:19.688 DEBUG +[MonitorInfo getModelName:]:802 - +[MonitorInfo getModelName:]
+2025-01-30 09:54:20.232 DEBUG +[MonitorInfo getModelName:]:821 - GetModelName readValue = 13
+2025-01-30 09:54:20.233 DEBUG +[MonitorInfo getModelName:]:951 - ModelName = U3419W
+2025-01-30 09:54:20.233 DEBUG +[MonitorInfo getModelName:]:952 - GetModelName Successfully, retry count = 0
+2025-01-30 09:54:20.252 DEBUG +[MonitorInfo getServiceTag:]:594 - writei2c return value: 0
+2025-01-30 09:54:20.791 DEBUG -[AppDelegate getMonitorInfo]:1133 - serviceTag: not found (len = 3)
+2025-01-30 09:54:20.809 DEBUG +[MonitorInfo getIDCode:]:619 - writei2c return value: 0
+2025-01-30 09:54:21.350 DEBUG +[MonitorInfo getIDCode:]:624 - not found (len = 3)
+2025-01-30 09:54:21.350 DEBUG -[AppDelegate getMonitorInfo]:1139 - IDCode not found, set monitor IDCode = 1
+2025-01-30 09:54:21.907 DEBUG +[MonitorInfo getPanelSource:]:1117 - Retry
+2025-01-30 09:54:22.967 DEBUG +[MonitorInfo getScalerChip:]:1188 - +[MonitorInfo getScalerChip:]
+2025-01-30 09:54:23.526 DEBUG +[MonitorInfo getScalerChip:]:1211 - 0xFF 0xFE read:
+2025-01-30 09:54:23.527 DEBUG +[MonitorInfo getScalerChip:]:1214 - 6E
+2025-01-30 09:54:23.527 DEBUG +[MonitorInfo getScalerChip:]:1214 - 94
+2025-01-30 09:54:23.528 DEBUG +[MonitorInfo getScalerChip:]:1214 - 02
+2025-01-30 09:54:23.528 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.528 DEBUG +[MonitorInfo getScalerChip:]:1214 - FF
+2025-01-30 09:54:23.528 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.528 DEBUG +[MonitorInfo getScalerChip:]:1214 - FF
+2025-01-30 09:54:23.529 DEBUG +[MonitorInfo getScalerChip:]:1214 - 52
+2025-01-30 09:54:23.529 DEBUG +[MonitorInfo getScalerChip:]:1214 - 54
+2025-01-30 09:54:23.530 DEBUG +[MonitorInfo getScalerChip:]:1214 - 44
+2025-01-30 09:54:23.530 DEBUG +[MonitorInfo getScalerChip:]:1214 - 32
+2025-01-30 09:54:23.530 DEBUG +[MonitorInfo getScalerChip:]:1214 - 37
+2025-01-30 09:54:23.530 DEBUG +[MonitorInfo getScalerChip:]:1214 - 39
+2025-01-30 09:54:23.531 DEBUG +[MonitorInfo getScalerChip:]:1214 - 37
+2025-01-30 09:54:23.531 DEBUG +[MonitorInfo getScalerChip:]:1214 - 50
+2025-01-30 09:54:23.531 DEBUG +[MonitorInfo getScalerChip:]:1214 - 2D
+2025-01-30 09:54:23.531 DEBUG +[MonitorInfo getScalerChip:]:1214 - 56
+2025-01-30 09:54:23.531 DEBUG +[MonitorInfo getScalerChip:]:1214 - 44
+2025-01-30 09:54:23.531 DEBUG +[MonitorInfo getScalerChip:]:1214 - 4C
+2025-01-30 09:54:23.532 DEBUG +[MonitorInfo getScalerChip:]:1214 - 2D
+2025-01-30 09:54:23.532 DEBUG +[MonitorInfo getScalerChip:]:1214 - 43
+2025-01-30 09:54:23.532 DEBUG +[MonitorInfo getScalerChip:]:1214 - 47
+2025-01-30 09:54:23.532 DEBUG +[MonitorInfo getScalerChip:]:1214 - EB
+2025-01-30 09:54:23.533 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.533 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.533 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.533 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.533 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.534 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.534 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.534 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.534 DEBUG +[MonitorInfo getScalerChip:]:1214 - 00
+2025-01-30 09:54:23.534 DEBUG +[MonitorInfo getScalerChip:]:1239 - scalerName matches support scaler list
+2025-01-30 09:54:23.534 DEBUG +[MonitorInfo getScalerChip:]:1266 - scalerChip = RTD2797P-VDL-CG
+2025-01-30 09:54:23.535 DEBUG +[MonitorInfo getPdChipName:]:1127 - +[MonitorInfo getPdChipName:]
+2025-01-30 09:54:24.095 DEBUG +[MonitorInfo getPdChipName:]:1147 - 0xFF 0xFB read:
+2025-01-30 09:54:24.095 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.096 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.096 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.096 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.097 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.097 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.097 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.097 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.098 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.098 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.098 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.099 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.099 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.100 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.100 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.100 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.101 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.101 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.101 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.102 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.102 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.102 DEBUG +[MonitorInfo getPdChipName:]:1150 - 6E
+2025-01-30 09:54:24.102 DEBUG +[MonitorInfo getPdChipName:]:1150 - 88
+2025-01-30 09:54:24.103 DEBUG +[MonitorInfo getPdChipName:]:1150 - 02
+2025-01-30 09:54:24.103 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.103 DEBUG +[MonitorInfo getPdChipName:]:1150 - F1
+2025-01-30 09:54:24.103 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.104 DEBUG +[MonitorInfo getPdChipName:]:1150 - FF
+2025-01-30 09:54:24.104 DEBUG +[MonitorInfo getPdChipName:]:1150 - FF
+2025-01-30 09:54:24.104 DEBUG +[MonitorInfo getPdChipName:]:1150 - 01
+2025-01-30 09:54:24.104 DEBUG +[MonitorInfo getPdChipName:]:1150 - 0B
+2025-01-30 09:54:24.105 DEBUG +[MonitorInfo getPdChipName:]:1150 - 4F
+2025-01-30 09:54:24.105 DEBUG +[MonitorInfo getPdChipName:]:1178 - Retry
+2025-01-30 09:54:24.664 DEBUG +[MonitorInfo getPdChipName:]:1147 - 0xFF 0xFB read:
+2025-01-30 09:54:24.665 DEBUG +[MonitorInfo getPdChipName:]:1150 - 6E
+2025-01-30 09:54:24.666 DEBUG +[MonitorInfo getPdChipName:]:1150 - 90
+2025-01-30 09:54:24.667 DEBUG +[MonitorInfo getPdChipName:]:1150 - 02
+2025-01-30 09:54:24.667 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.668 DEBUG +[MonitorInfo getPdChipName:]:1150 - FF
+2025-01-30 09:54:24.668 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.670 DEBUG +[MonitorInfo getPdChipName:]:1150 - FF
+2025-01-30 09:54:24.670 DEBUG +[MonitorInfo getPdChipName:]:1150 - 54
+2025-01-30 09:54:24.671 DEBUG +[MonitorInfo getPdChipName:]:1150 - 49
+2025-01-30 09:54:24.671 DEBUG +[MonitorInfo getPdChipName:]:1150 - 20
+2025-01-30 09:54:24.671 DEBUG +[MonitorInfo getPdChipName:]:1150 - 54
+2025-01-30 09:54:24.672 DEBUG +[MonitorInfo getPdChipName:]:1150 - 50
+2025-01-30 09:54:24.672 DEBUG +[MonitorInfo getPdChipName:]:1150 - 53
+2025-01-30 09:54:24.673 DEBUG +[MonitorInfo getPdChipName:]:1150 - 36
+2025-01-30 09:54:24.674 DEBUG +[MonitorInfo getPdChipName:]:1150 - 35
+2025-01-30 09:54:24.674 DEBUG +[MonitorInfo getPdChipName:]:1150 - 39
+2025-01-30 09:54:24.675 DEBUG +[MonitorInfo getPdChipName:]:1150 - 38
+2025-01-30 09:54:24.675 DEBUG +[MonitorInfo getPdChipName:]:1150 - 32
+2025-01-30 09:54:24.678 DEBUG +[MonitorInfo getPdChipName:]:1150 - F6
+2025-01-30 09:54:24.679 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.681 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.682 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.683 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.683 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.685 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.685 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.686 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.686 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.687 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.687 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.688 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.688 DEBUG +[MonitorInfo getPdChipName:]:1150 - 00
+2025-01-30 09:54:24.726 DEBUG -[TPS65987D getFirmwareVersion]: 57 - current PD fwVersion = 5CD104
+2025-01-30 09:54:24.726 DEBUG -[AppDelegate getMonitorInfo]:1418 - IDCODE : 1
+2025-01-30 09:54:24.727 DEBUG -[AppDelegate getMonitorInfo]:1418 - MODEL_NAME : U3419W
+2025-01-30 09:54:24.727 DEBUG -[AppDelegate getMonitorInfo]:1418 - SCALER_NAME : RTD2797P-VDL-CG
+2025-01-30 09:54:24.727 DEBUG -[AppDelegate getMonitorInfo]:1418 - PD_NAME : TI TPS65982
+2025-01-30 09:54:24.728 DEBUG -[AppDelegate getMonitorInfo]:1418 - CURRENT_VERSION : 03B000
+2025-01-30 09:54:24.728 DEBUG -[AppDelegate getMonitorInfo]:1418 - PD_VERSION : 5CD104
+2025-01-30 09:54:24.728 DEBUG -[AppDelegate getMonitorInfo]:1407 - PANEL_SOURCE : 0x20
+2025-01-30 09:54:24.729 DEBUG -[AppDelegate refreshUi]_block_invoke:1735 - ===== New FW version to update =====
+2025-01-30 09:54:24.729 DEBUG -[UpdatePackageInfo PrintVersionAfterUpdate]:612 - U3419W
+2025-01-30 09:54:24.729 DEBUG -[UpdatePackageInfo PrintVersionAfterUpdate]:612 - TI TPS65982:5CD105
+2025-01-30 09:54:24.737 DEBUG -[AppDelegate DetectProcess:retry:closeAPP::]:223 - Process firmwareupdater found
+2025-01-30 09:54:35.494 DEBUG -[RunCommands runCommand::]: 35 - run command:tccutil reset Accessibility com.oem.qisda.firmwareupdater
+2025-01-30 09:54:35.527 DEBUG -[RunCommands runCommand::]: 35 - run command:tccutil reset ListenEvent com.oem.qisda.firmwareupdater
